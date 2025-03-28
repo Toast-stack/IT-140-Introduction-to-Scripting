@@ -123,10 +123,10 @@ This course introduced fundamental programming skills that are relevant to softw
 * Python 3 installed on your system
 * clone this repository:
 
-      ''' sh
+      '''sh
       git clone https://github.com/Toast-stack/IT-140-Introduction-to-Scripting.git
 * Run the Python scripts using:
 
-      ''' sh
+      '''sh
       python <filename>.py
 
