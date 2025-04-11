@@ -129,4 +129,5 @@ This course introduced fundamental programming skills that are relevant to softw
 
       '''sh
       python <filename>.py
-
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software.
