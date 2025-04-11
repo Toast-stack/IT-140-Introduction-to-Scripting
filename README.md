@@ -17,14 +17,14 @@ This repository contains coursework for *IT-140: Introduction to Scripting*. The
 This script demonstrates basic user input handling and output formatting. It prompts the user for their name and age, then calculates their birth year based on the current year (2022).
 
 ### **Code Snippet**
-     ''' Python
+```Python
      user_name = input("Enter your name: ")
      user_age = int(input("Enter your age: "))
      current_year = 2022
      birth_year = current_year - user_age
 
      print('Hello', user_name + '!', 'You were born in', birth_year)
-
+```
 ### Concepts Covered
 * Basic  `input()` and `print()` functions
 * Data type conversion (`int()`)
@@ -37,7 +37,7 @@ This script calculates the total wages for a user based on their work hours. It 
 * Overtinme hours (>40) are paid at `$30/hour`
 
 ### **Code Snippet**
-    ''' python
+ ```python
     user_wage = 20
     user_over = 30
     hours = int(input("Enter hours worked: "))
@@ -50,6 +50,7 @@ This script calculates the total wages for a user based on their work hours. It 
         total = (reg_t * 20) + (over_t * 30)
 
     print("Total earnings:", total)
+```
 
 ### **Concepts Covered**
 * Conditional statements `if-else`
@@ -61,7 +62,7 @@ This script calculates the total wages for a user based on their work hours. It 
 This script generates a random number within a user-defined range and allows the player to guess it. The game provides feedback if the guess is too high or too low.
 
 ### **Code Snippet**
-    ''' python
+```python
     import random
 
     lwr_bnd = int(input("Choose a lower bound: "))
@@ -80,6 +81,7 @@ This script generates a random number within a user-defined range and allows the
                 print("Nope, too high.")
             else:
                 print("Nope, too low.")
+```
 
 ### **Concepts Covered**
 * Random number generation (`random.randint()`)
@@ -123,11 +125,12 @@ This course introduced fundamental programming skills that are relevant to softw
 * Python 3 installed on your system
 * clone this repository:
 
-      '''sh
+  ```sh
       git clone https://github.com/Toast-stack/IT-140-Introduction-to-Scripting.git
+  ```
 * Run the Python scripts using:
-
-      '''sh
+```sh
       python <filename>.py
+```
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software.
